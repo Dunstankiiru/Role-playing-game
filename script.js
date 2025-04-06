@@ -19,6 +19,8 @@ const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
 
+const locations= [];
+
 //initialize buttons
 button1.onclick = goStore;
 
