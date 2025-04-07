@@ -262,6 +262,10 @@ function getMonsterAttackValue(level){
     //In getMonsterAttackValue, change return hit to a ternary operator that returns hit if hit is greater than 0, or returns 0 if it is not.
 }
 
+function isMonsterHit(){
+    return Math.random() > 0.2;
+}
+
 function dodge(){
 
     text.innerText = "You dodge the attack from the " + monsters[fighting].name;
