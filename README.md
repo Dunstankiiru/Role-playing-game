@@ -2,7 +2,7 @@
 
 A browser-based role-playing game where you must defeat the dragon terrorizing the town!
 
-![Game Screenshot](screenshot.png) *Screenshot placeholder - add your own screenshot*
+![Game Screenshot](Images/Screenshot.png)
 
 ## How to Play
 
