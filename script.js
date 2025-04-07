@@ -252,6 +252,8 @@ function attack(){
     if (Math.random() <= .1){
 
         text.innerText += " Your " + inventory.pop() + " breaks.";
+
+        currentWeaponIndex --;
     }
 
     }
