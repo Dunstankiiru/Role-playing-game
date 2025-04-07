@@ -19,7 +19,23 @@ const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
 
-const locations= [];
+const locations= [
+    {
+        name: "town square",
+        "button text":[]
+    }
+];
+
+/*
+//object
+const cat = {
+    name: "Whiskers",
+    "Number of legs": 4
+};
+//accessing object
+console.log(cat.name);
+console.log(cat["Number of legs"]);
+*/
 
 //initialize buttons
 button1.onclick = goStore;
