@@ -53,8 +53,8 @@ button3.onclick = fightDragon;
 
 function update(location){
     button1.innerText = location["button text"][0];
-    button2.innerText = "Go to cave";
-    button3.innerText = "Fight dragon";
+    button2.innerText = location["button text"][0];
+    button3.innerText = location["button text"][0];
     button1.onclick = goStore;
     button2.onclick = goCave;
     button3.onclick = fightDragon;
