@@ -78,7 +78,7 @@ const locations= [
     {
         name: "fight",
         "button text": ["Attack", "Dodge", "Run"],
-        "button functions": [attack, dodge, goTown],
+        "button functions": [attack, dodge, easterEgg],
         text: "You are fighting a monster."
     },
     {
@@ -347,9 +347,12 @@ function pick(guess) {
         text.innerText += "Wrong! You lose 10 health!";
         health -= 10;
         healthText.innerText = health;
-     if(health <=0 ){
-        lose();
+
+        if (health <= 0) {
+            lose();
+        }
     }
+    
 }
 
 
