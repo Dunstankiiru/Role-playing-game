@@ -247,6 +247,9 @@ function attack(){
         }
     }
 
+function getMonsterAttackValue(level){
+
+}
 
 function dodge(){
 
