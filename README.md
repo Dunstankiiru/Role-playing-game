@@ -1,43 +1,67 @@
-# Dragon Repeller RPG
+# 🐉 Dragon Repeller RPG
 
 A browser-based role-playing game where you must defeat the dragon terrorizing the town!
 
-![Game Screenshot](Screenshot.png)
+## 🎮 How to Play
 
-## How to Play
+### Getting Started
+- You begin in the town square with:
+  - 100 Health
+  - 50 Gold
+  - A basic stick weapon
 
-1. Start in the town square with 50 gold and 100 health
-2. Visit the store to buy better weapons or health
-3. Explore the cave to fight weaker monsters and gain XP
-4. Build up your strength to defeat the final dragon boss
-5. Manage your gold and health carefully!
+### Core Gameplay
+1. **Town Square**: Your hub for traveling to other locations
+2. **Store**: Spend gold to:
+   - Buy health (+10 HP for 10 gold)
+   - Upgrade weapons (see Weapons section below)
+3. **Cave**: Fight monsters to gain XP and gold
+4. **Dragon**: Final boss battle (recommended level 20)
 
-### Controls
-- Click buttons to navigate between locations
-- Choose actions (Attack/Dodge/Run) during combat
+### Combat Mechanics
+- **Attack**: Deal damage based on your weapon
+- **Dodge**: Avoid monster attack (20% chance)
+- **Run**: Escape back to town (may trigger easter egg)
 
-## Game Features
+## 🏆 Game Features
 
-- Multiple locations: Town, Store, Cave
-- Combat system with 3 different monsters
-- Weapon upgrades (stick → dagger → hammer → sword)
-- XP and gold rewards
-- Easter egg mini-game
-- Win/lose conditions
+### Locations
+- Town Square
+- Store
+- Cave
+- Combat Arena
 
-## Technologies Used
+### Weapons
+| Weapon      | Power | Cost |
+|-------------|-------|------|
+| Stick       | 5     | -    |
+| Dagger      | 30    | 30g  |
+| Claw Hammer | 50    | 30g  |
+| Sword       | 100   | 30g  |
 
+### Monsters
+| Monster      | Level | Health |
+|--------------|-------|--------|
+| Slime        | 2     | 15     |
+| Fanged Beast | 8     | 60     |
+| Dragon       | 20    | 300    |
+
+### Easter Egg
+Find the secret number guessing game by choosing "Run" during combat!
+
+## 💻 Technologies Used
 - HTML5
 - CSS3
 - JavaScript (ES6)
 
-## How to Run
+## 🚀 How to Run
+1. Clone this repository
+2. Open `index.html` in any modern browser
+3. No installation required!
 
-Simply open `index.html` in any modern web browser.
-
-## Future Improvements
-
-- Add more weapons and monsters
-- Implement a leveling system
-- Add sound effects
-- Create mobile-friendly version
+## 🔮 Future Improvements
+- More weapons and armor
+- Character leveling system
+- Save game progress
+- Mobile responsive design
+- Sound effects and music
