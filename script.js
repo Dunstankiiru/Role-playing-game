@@ -210,11 +210,19 @@ function attack(){
         (monsterHealth <= 0) {
 
             defeatMonster();
-            
+
         }
     }
 
 
 function dodge(){
 
+}
+
+function defeatMonster(){
+
+}
+
+function lose (){
+    
 }
