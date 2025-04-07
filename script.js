@@ -252,7 +252,7 @@ function getMonsterAttackValue(level){
     const hit = (level * 5) - (Math.floor(Math.random() * xp));
 
     //This will set the monster's attack to five times their level minus a random number between 0 and the player's xp.
-    console.log(hit);
+     return hit;
 }
 
 function dodge(){
