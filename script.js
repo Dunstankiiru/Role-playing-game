@@ -225,6 +225,8 @@ function attack(){
 
     if (isMonsterHit()){
         monsterHealth -= weapons[currentWeaponIndex].power + Math.floor(Math.random() * xp) + 1;
+    } else {
+        text.innerText += " You miss.";
     }
    
 
