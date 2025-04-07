@@ -38,6 +38,7 @@ const weapons = [
     }
 ];
 
+
 const locations= [
     {
         name: "town square",
@@ -119,6 +120,7 @@ function buyHealth(){
 function  buyWeapon(){
     if (gold >=30){
         gold -= 30;
+        currentWeaponIndex += 1;
 
     }
 }
