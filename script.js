@@ -140,6 +140,12 @@ function  buyWeapon(){
     
 }
 
+function sellWeapon (){
+    if (inventory.length >1){
+
+    }
+}
+
 function fightSlime(){
 
 }
